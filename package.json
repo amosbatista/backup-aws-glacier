@@ -1,0 +1,17 @@
+{
+  "name": "backup-aws-glacier",
+  "version": "1.0.0",
+  "description": "A client to upload and download files to AWS Glacier",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require babel-register --reporter spec || exit 0"
+  },
+  "author": "Amós Batista",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
