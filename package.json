@@ -4,7 +4,8 @@
   "description": "A client to upload and download files to AWS Glacier",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --require babel-register --reporter spec || exit 0"
+    "test": "./node_modules/mocha/bin/mocha --require babel-register --reporter spec || exit 0",
+    "upload": "node -r esm src/upload.js"
   },
   "author": "Amós Batista",
   "license": "ISC",
@@ -13,5 +14,9 @@
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "esm": "^3.0.80",
+    "hash-files": "^1.1.1"
   }
 }

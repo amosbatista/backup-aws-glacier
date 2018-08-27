@@ -1,0 +1,11 @@
+{
+	"aws": "",
+	"vaults": [
+		{
+			"name": "x",
+			"folders": [
+				"/var"
+			]
+		}
+	]
+}
